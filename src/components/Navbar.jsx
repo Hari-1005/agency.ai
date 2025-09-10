@@ -5,7 +5,7 @@ import ThemeToggleBtn from "./ThemeToggleBtn";
 const Navbar = ({ theme, setTheme }) => {
     const [sideBar, setSideBar] = useState(false);
   return (
-    <div className="font-medium px-4 sm:px-12 lg:px-24 xl:px-40 py-4 flex justify-between items-center sticky top-0 z-20 backdrop-blur-xl bg-white/10 dark:bg-gray-900/70">
+    <div className="font-medium px-4 sm:px-12 lg:px-24 xl:px-40 py-4 flex justify-between items-center sticky top-0 z-20 bg-white/30 dark:bg-gray-900/0 backdrop-blur-xl">
       <img
         src={theme === "dark" ? assets.logo_dark : assets.logo}
         alt="logo"
